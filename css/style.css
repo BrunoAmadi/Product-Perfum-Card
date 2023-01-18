@@ -33,6 +33,7 @@ main {
   justify-content: center;
   align-content: center;
   background-color: var(--Cream);
+  margin: 20px;
 }
 .container-img img {
   display: block;
@@ -110,6 +111,13 @@ main {
 @media (max-width: 550px) {
   .container-geral {
     grid-template-columns: 1fr;
+    margin: 10px;
+  }
+  .container-img img{
+    border-radius: 5px 5px 0px 0px;
+  }
+  .container-info {
+    border-radius: 0px 0px 5px 5px;
   }
   .container-info :first-child {
     margin-bottom: 20px;
@@ -124,6 +132,7 @@ main {
   }
   .price{
     margin-bottom: 20px;
+    font-size: 1.5rem;
 
   }
 }
