@@ -142,7 +142,7 @@ button {
   .container-geral {
     grid-template-columns: 1fr;
   }
-  .container-info :first-child {
+  .container-info p {
     margin-bottom: 10px;
     font-size: 0.625rem;
   }
