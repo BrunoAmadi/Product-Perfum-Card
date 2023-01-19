@@ -23,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 main {
   max-width: 1440px;
 }
@@ -107,36 +108,36 @@ main {
   height: 16px;
   width: 16px;
 }
+.btn-cart:hover {
+  transition: 0.3s;
+  background-color: #247777;
+}
+button {
+  border: none;
+}
 
 @media (max-width: 550px) {
   .container-geral {
     grid-template-columns: 1fr;
     margin: 10px;
   }
-  .container-img img{
+  .container-img img {
     border-radius: 5px 5px 0px 0px;
   }
   .container-info {
     border-radius: 0px 0px 5px 5px;
   }
-  .container-info :first-child {
+  .container-info p {
     margin-bottom: 20px;
- 
   }
   .container-info h1 {
     margin-bottom: 20px;
- 
   }
-  .paragrafo-info {
-    margin-bottom: 20px;
-  }
-  .price{
+  .price {
     margin-bottom: 20px;
     font-size: 1.5rem;
-
   }
 }
-
 @media (max-width: 400px) {
   .container-geral {
     grid-template-columns: 1fr;
@@ -153,9 +154,7 @@ main {
     font-size: 0.625rem;
     margin-bottom: 10px;
   }
-  .price{
+  .price {
     margin-bottom: 20px;
-
   }
 }
-
